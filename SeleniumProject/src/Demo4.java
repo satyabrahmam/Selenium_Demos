@@ -18,7 +18,7 @@ public class Demo4 {
 		for(int i = 0; i<=6; i++)
 		{
 			List<WebElement> lists = driver.findElements(By.xpath("//*[@class = 'mouseOut']"));
-		
+			
 		
 			String pagename= lists.get(i).getText();
 			lists.get(i).click();
